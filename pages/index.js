@@ -12,18 +12,20 @@ export default function HomePage() {
         <div className="bg-pink-50 p-6 rounded-2xl shadow-md hover:shadow-xl transition">
           <h2 className="text-2xl font-semibold mb-2 text-pink-700">🔍 Explore by Season</h2>
           <p className="mb-2 text-blue-800">Browse race results, standings, and stories from each year of WSMC history.</p>
-          <Link href="/seasons/1900" className="text-pink-600 underline">
-            1900 Season →
-          </Link>
+          <Link href="/seasons" className="text-pink-600 underline">
+  Browse seasons →
+</Link>
+
         </div>
 
         <div className="bg-pink-50 p-6 rounded-2xl shadow-md hover:shadow-xl transition">
-          <h2 className="text-2xl font-semibold mb-2 text-pink-700">🏎️ Teams & Constructors</h2>
-          <p className="mb-2 text-blue-800">Dive into the legacies of the most iconic racing teams of the era.</p>
-          <Link href="/constructors" className="text-pink-600 underline">
-            Meet the teams →
-          </Link>
-        </div>
+  <h2 className="text-2xl font-semibold mb-2 text-pink-700">🏎️ Teams & Constructors</h2>
+  <p className="mb-2 text-blue-800">Dive into the legacies of the most iconic racing teams of the era.</p>
+  <Link href="/constructors" className="text-pink-600 underline">
+    Browse constructors →
+  </Link>
+</div>
+
 
         <div className="bg-pink-50 p-6 rounded-2xl shadow-md hover:shadow-xl transition">
           <h2 className="text-2xl font-semibold mb-2 text-pink-700">👤 Driver Profiles</h2>

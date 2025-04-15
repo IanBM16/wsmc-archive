@@ -9,12 +9,10 @@ export default function NavBar() {
           <li>
             <Link href="/">🏠 Home</Link>
           </li>
-          <li>
-            <Link href="/seasons/1900">📅 Seasons</Link>
-          </li>
-          <li>
-            <Link href="/constructors/peugeot">🏎️ Constructors</Link>
-          </li>
+          <li><Link href="/seasons">📅 Seasons</Link></li>
+
+          <li><Link href="/constructors">🏎️ Constructors</Link></li>
+
           <li><Link href="/tracks">🗺️ Tracks</Link></li>
 <li>
             <Link href="/drivers">👤 Drivers</Link>
