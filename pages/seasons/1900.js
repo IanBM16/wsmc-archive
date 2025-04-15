@@ -190,7 +190,8 @@ export default function Season1900() {
             {Object.entries(teamDriversMap).map(([team, teamDrivers]) => {
               const country = teamCountryMap[team];
               const code = countryCode[country];
-              const logoFilename = team.toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9\-]/g, '') + '.png';
+              const logoFilename = 'new-' + team.toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9\\-]/g, '') + '.png';
+
               return (
                 <li key={team} className={`${teamColors[team]} p-4 rounded-xl shadow`}>
                   <div className="flex items-center justify-between mb-1">
