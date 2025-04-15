@@ -50,6 +50,12 @@ export default function HomePage() {
             Read the latest →
           </Link>
         </div>
+        <div className="bg-pink-50 p-4 rounded-2xl shadow">
+  <h2 className="text-2xl font-semibold mb-2 text-pink-700">📊 Stats & Analytics</h2>
+  <p className="mb-2 text-blue-800">Compare drivers, analyze teams, and track trends over time.</p>
+  <Link href="/stats" className="text-blue-600 underline">Explore stats →</Link>
+</div>
+
       </section>
 
       <footer className="text-center text-sm text-blue-800 pt-12 border-t border-pink-300">

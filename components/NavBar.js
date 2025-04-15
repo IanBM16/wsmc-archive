@@ -6,20 +6,13 @@ export default function NavBar() {
       <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-4">
         <h1 className="text-xl font-bold">WSMC Archive</h1>
         <ul className="flex gap-4 text-sm font-semibold">
-          <li>
-            <Link href="/">🏠 Home</Link>
-          </li>
+          <li><Link href="/">🏠 Home</Link></li>
           <li><Link href="/seasons">📅 Seasons</Link></li>
-
           <li><Link href="/constructors">🏎️ Constructors</Link></li>
-
           <li><Link href="/tracks">🗺️ Tracks</Link></li>
-<li>
-            <Link href="/drivers">👤 Drivers</Link>
-          </li>
-          <li>
-            <Link href="/journal">🗞️ Journal</Link>
-          </li>
+          <li><Link href="/drivers">👤 Drivers</Link></li>
+          <li><Link href="/stats">📊 Stats</Link></li> {/* ✅ Now styled correctly */}
+          <li><Link href="/journal">🗞️ Journal</Link></li>
         </ul>
       </div>
     </nav>
