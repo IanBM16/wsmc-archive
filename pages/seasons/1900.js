@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import NavBar from '../../components/NavBar';
 
 export default function Season1900() {
@@ -115,7 +116,16 @@ export default function Season1900() {
           return (
             <tr key={round} className="border-t border-blue-200">
               <td className="p-2">{round}</td>
-              <td className="p-2 font-semibold text-pink-600">{gp}</td>
+              <td className="p-2 font-semibold text-pink-600">
+  {gp === 'Roman GP' ? (
+    <Link href="/grands-prix/1900/roman-gp" className="underline">
+      {gp}
+    </Link>
+  ) : (
+    gp
+  )}
+</td>
+
               <td className="p-2 flex items-center gap-2">
                 {location}
                 {code && (
