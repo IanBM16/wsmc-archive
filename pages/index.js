@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-black text-pink-300 p-6 space-y-12">
@@ -10,12 +12,9 @@ export default function HomePage() {
         <div className="bg-blue-950 p-4 rounded-2xl shadow">
           <h2 className="text-2xl font-semibold mb-2 text-pink-300">🔍 Explore by Season</h2>
           <p className="mb-2 text-pink-200">Browse race results, standings, and stories from each year of WSMC history.</p>
-          import Link from 'next/link';
-...
-<Link href="/seasons/1900" className="text-pink-600 underline">
-  1900 Season
-</Link>
-
+          <Link href="/seasons/1900" className="text-pink-600 underline">
+            1900 Season
+          </Link>
         </div>
 
         <div className="bg-blue-950 p-4 rounded-2xl shadow">
