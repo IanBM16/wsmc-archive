@@ -1,5 +1,5 @@
 import { useMDXComponent } from 'next-contentlayer/hooks';
-import { allArticles } from '../../.contentlayer/generated';
+import { allArticles } from '@contentlayer/generated';
 import NavBar from '../../components/NavBar';
 
 export async function getStaticPaths() {
